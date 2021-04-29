@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    >
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Rofty"
+        android:paddingVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nairobi"
+        android:textSize="20sp"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/txtDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mombasa"
+        android:textSize="20sp"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/txtTicketNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qwerty123"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ksh: 700"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Btnwa"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:onClick="ShareOnWhatsapp"
+        android:text="Share on whatsapp"
+        android:textStyle="normal|bold|italic"
+        app:cornerRadius="@dimen/text_margin"
+        app:icon="@drawable/ic_menu_share" />
+
+    <Button
+        android:id="@+id/Btnpay"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:onClick="Pay"
+        android:text="pay via mpesa"
+        android:textStyle="normal|bold|italic"
+        app:cornerRadius="@dimen/text_margin"
+        app:icon="@android:drawable/sym_action_chat" />
+
+
+</LinearLayout>
